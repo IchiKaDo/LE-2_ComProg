@@ -76,7 +76,6 @@ for match_num in range(1, 5):
     
     print()
 
-# Generate the Match Log
 print("=================================================")
 print(f"     {ign} -- MATCH LOG ({rank})")
 print("=================================================")
