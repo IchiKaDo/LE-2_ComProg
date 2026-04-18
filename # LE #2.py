@@ -51,11 +51,11 @@ for match_num in range(1, 5):
     
     # Determine the tag
     result_upper = result.upper()
-    if kda >= 5 and result_upper == 'W':
+    if kda >= 5 and result_upper.upper() == 'W':
         tag = "DOMINATION!"
-    elif kda >= 5 and result_upper == 'L':
+    elif kda >= 5 and result_upper.upper() == 'L':
         tag = "Carried Hard"
-    elif kda < 5 and result_upper == 'W':
+    elif kda < 5 and result_upper.upper() == 'W':
         tag = "Team Effort"
     else:
         tag = "Better Luck Next Game"
@@ -74,7 +74,7 @@ for match_num in range(1, 5):
     logged_results.append(result_str)
     logged_tags.append(tag)
     
-    print()  # Spacer line
+    print()
 
 # Generate the Match Log
 print("=================================================")
