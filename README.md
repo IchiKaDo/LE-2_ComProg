@@ -8,7 +8,9 @@ Exam, School related
 
 How to run:
 
--1 Input any necessary information the program requires you to.
+~ 1 Input any necessary information the program requires you to.
+
+~ 2 You can run this by copy pasting the code on an online interpreter or copy pastin the code on a .py file and running it on the termanl like this "py "file_name" then hit enter.
 
 ---Avoid---
 
