@@ -51,11 +51,11 @@ for match_num in range(1, 5):
     
     # Determine the tag
     result_upper = result.upper()
-    if kda >= 5 and result_upper.upper() == 'W':
+    if kda >= 5 and result_upper == 'W':
         tag = "DOMINATION!"
-    elif kda >= 5 and result_upper.upper() == 'L':
+    elif kda >= 5 and result_upper == 'L':
         tag = "Carried Hard"
-    elif kda < 5 and result_upper.upper() == 'W':
+    elif kda < 5 and result_upper == 'W':
         tag = "Team Effort"
     else:
         tag = "Better Luck Next Game"
